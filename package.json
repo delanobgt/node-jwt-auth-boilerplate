@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "*",
+    "body-parser": "*",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "*",
+    "jwt-simple": "*",
+    "method-override": "^3.0.0",
+    "mongoose": "*",
+    "morgan": "*",
+    "nodemon": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "passport-local": "*"
+  }
+}
